@@ -1,12 +1,15 @@
-# ncRNA Transformer Project
+# ncRNA Sequence Classification with Transformers
 
-## Description
-This project is about working with ncRNA data and using a Transformer model to  analyze it.
+##  Project
+This project classifies **non-coding RNA (ncRNA) sequences** using a **Transformer Encoder**.  It predicts 3 classes: lncRNA, RNAcentral, and MARS.  
 
-## Tools
-- Python
-- Transformer encoder
+## Data & Model
+- Cleaned and tokenized sequences into k-mers  
+- Encoded sequences as tensors
+- Built a Transformer Encoder for multi-class classification  
 
-## Goal
-The goal is to understand and analyze ncRNA data.
+## Results
+- High accuracy on major class (MARS)  
+- Minor classes (lncRNA) are harder due to imbalance  
+
 
