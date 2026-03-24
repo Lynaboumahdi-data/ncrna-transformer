@@ -1,6 +1,6 @@
 # ncRNA Sequence Classification with Transformers
 
-##  Project
+## Project
 This project classifies **non-coding RNA (ncRNA) sequences** using a **Transformer Encoder**.  It predicts 3 classes: lncRNA, RNAcentral, and MARS.  
 
 ## Data & Model
